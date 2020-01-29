@@ -1,0 +1,10 @@
+<h1>Total Word = {{count}}</h1>
+<br>
+<h2>Your Text:</h2>
+<p>
+  {{fulltext}}
+</p>
+{% for word,total in dictonary %}
+{{word }} - {{total}}
+<br>
+{% endfor %}
